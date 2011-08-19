@@ -85,6 +85,22 @@ class Arch {
    */
   static Arch s390x() { return zypp::Arch_s390x; }
   /*
+   * builtin: armv7tnhl
+   */
+  static Arch armv7tnhl() { return zypp::Arch_armv7tnhl; }
+  /*
+   * builtin: armv7thl
+   */
+  static Arch armv7thl() { return zypp::Arch_armv7thl; }
+  /*
+   * builtin: armv7nhl
+   */
+  static Arch armv7nhl() { return zypp::Arch_armv7nhl; }
+  /*
+   * builtin: armv7hl
+   */
+  static Arch armv7hl() { return zypp::Arch_armv7hl; }
+  /*
    * builtin: armv7l
    */
   static Arch armv7l() { return zypp::Arch_armv7l; }
